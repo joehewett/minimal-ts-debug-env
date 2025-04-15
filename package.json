@@ -1,0 +1,15 @@
+{
+  "name": "browser-debug",
+  "version": "1.0.0",
+  "description": "Debug configuration for browser automation",
+  "main": "output/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.ts",
+    "debug": "tsx --inspect-brk main.ts"
+  },
+  "dependencies": {
+    "playwright-core": "^1.51.1",
+    "tsx": "^4.19.3"
+  }
+}
